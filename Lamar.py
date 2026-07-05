@@ -7,7 +7,7 @@ st.set_page_config(page_title="HBD Lamar 🎂", page_icon="🎈", layout="center
 
 base_path = os.path.dirname(os.path.abspath(__file__))
 image_path = os.path.join(base_path, "collage.jpg")
-final_image_path = os.path.join(base_path, "final_photo.png")
+final_image_path = os.path.join(base_path, "final_photo.jpeg")
 audio_path = os.path.join(base_path, "HBD.mp3")
 
 # ---------- CSS + JS ----------
