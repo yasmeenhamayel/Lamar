@@ -139,7 +139,7 @@ elif st.session_state.stage == 3:
 elif st.session_state.stage == 4:
     st.balloons()
     st.balloons()
-    st.markdown("<h1 style='text-align:center;color:#FF3D8A;'>🎊 HAPPY BIRTHDAY SWEETY(استني شوي بطول مرات) 🎊</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align:center;color:#FF3D8A;'>🎊 HAPPY BIRTHDAY LAMOOOR🎊</h1>", unsafe_allow_html=True)
 
     if os.path.exists(audio_path):
         with open(audio_path, "rb") as f:
