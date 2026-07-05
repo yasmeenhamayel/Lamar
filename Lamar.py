@@ -89,7 +89,7 @@ if st.session_state.stage == 1:
         {"t": "شو؟", "s": 160},
         {"t": "معقول ما بتعرفو؟", "s": 260},
         {"t": "!!!!", "s": 400},
-        {"t": "عيد ميلاد لماار!", "s": 580}
+        {"t": "!!!!", "s": 580}
     ]
     curr = btns[st.session_state.btn_count]
 
@@ -124,7 +124,7 @@ elif st.session_state.stage == 2:
             st.rerun()
     else:
         st.error("⚠️ متأكدة انتي لمار؟")
-        if st.button(" أناااااا لماااار 😂"):
+        if st.button(" أناااااا لماااار "):
             st.session_state.stage = 3
             st.rerun()
 
@@ -139,7 +139,7 @@ elif st.session_state.stage == 3:
 elif st.session_state.stage == 4:
     st.balloons()
     st.balloons()
-    st.markdown("<h1 style='text-align:center;color:#FF3D8A;'>🎊 HAPPY BIRTHDAY SWEETY 🎊</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align:center;color:#FF3D8A;'>🎊 HAPPY BIRTHDAY SWEETY(استني شوي بطول مرات) 🎊</h1>", unsafe_allow_html=True)
 
     if os.path.exists(audio_path):
         with open(audio_path, "rb") as f:
