@@ -89,7 +89,7 @@ if st.session_state.stage == 1:
         {"t": "شو؟", "s": 160},
         {"t": "معقول ما بتعرفو؟", "s": 260},
         {"t": "!!!!", "s": 400},
-        {"t": "!!!!", "s": 580}
+      
     ]
     curr = btns[st.session_state.btn_count]
 
